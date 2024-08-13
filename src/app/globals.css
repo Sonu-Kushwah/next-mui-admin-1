@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.sidebar {
+  position: fixed;
+  width: 270px;
+  background-color: white;
+  box-shadow: 0 0 10px #ccc;
+  height: 100vh;
+  padding: 10px 5px;
+  z-index: 1;
+}
+.layoutWrapper {
+  display: flex;
+}
+.main {
+  width: 100%;
+  /* position: relative;
+  left: 240px; */
+}
+.contentWrapper {
+  padding: 30px;
+}
+
+/*header css*/
+.sideMenu .MuiTypography-root {
+  color: black;
+}
